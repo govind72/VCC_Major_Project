@@ -1,0 +1,2 @@
+# Official metrics-server release
+curl -fsSLO https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
