@@ -68,7 +68,7 @@ resource "google_compute_instance" "worker1" {
   }
 
   network_interface {
-    subnetwork    = "projects/${var.gcp_project}/regions/us-west1/subnetworks/default"
+    subnetwork    = "projects/${var.gcp_project}/regions/us-east1/subnetworks/default"
     access_config {}
   }
 

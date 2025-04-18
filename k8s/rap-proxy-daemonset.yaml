@@ -16,7 +16,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
       - name: rap-proxy
-        image: gcr.io/YOUR_PROJECT_ID/rap-proxy:latest
+        image: govind72/rap-proxy:lates
         ports:
         - containerPort: 80
           hostPort: 80

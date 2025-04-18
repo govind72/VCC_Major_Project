@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: gcr.io/YOUR_PROJECT_ID/sample-app:latest
+        image: govind72/sample-app:latest
         env:
         - name: NODE_NAME
           valueFrom:

@@ -18,7 +18,7 @@ variable "gcp_zone_master" {
 variable "gcp_zone_worker1" {
   description = "Zone for worker1 VM"
   type        = string
-  default     = "us-west1-b"
+  default     = "us-east1-b"
 }
 
 variable "gcp_zone_worker2" {
